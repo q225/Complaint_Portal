@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Complaint Here </title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Submit Your Complaint Here</h1>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Your Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Complain Against</label>
+    <input type="text" id="lname" name="lastname" placeholder=" Name of the person against you are complaining">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Your Complain</label>
+    <textarea id="subject" name="subject" placeholder="Describe your Issue" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>

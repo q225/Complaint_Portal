@@ -1,0 +1,40 @@
+*{
+margin: 0;
+paddding: 0;
+}
+body
+{
+background-image: url('complaint.png');
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+h1{ 
+padding: 5px 20px;
+color: white;
+border: 1px solid white;
+}
+ul{
+margin-top: 25px;
+float: right;
+list-style-type: none;
+}
+ul li
+{
+display: inline-block;
+}
+ul li a{
+color: white;
+padding: 5px 20px;
+border: 1px solid white;
+transition: 0.8s ease;
+}
+ul li a:hover
+{
+background-color: white;
+color: black;
+}
+img
+{
+  border-radius: 50%;
+}
